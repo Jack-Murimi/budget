@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class RecordsPage extends StatelessWidget {
+  const RecordsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const Column(
       children: [
-        Text('HomePage'),
+        Text('Recods'),
         Icon(
           Icons.home,
           size: 50,

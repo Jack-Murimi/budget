@@ -5,9 +5,14 @@ class SettingsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-      title: const Text('Settings'),
-    ));
+    return const Column(
+      children: [
+        Text('SettingsPage'),
+        Icon(
+          Icons.home,
+          size: 50,
+        )
+      ],
+    );
   }
 }
